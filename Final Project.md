@@ -66,3 +66,8 @@ Perform the blast with the command:
 blast -db bees -max_target_seqs 1 -query bees.fa
 ```
 
+Download MAFFT using the command:
+
+```
+conda install -c bioconda mafft
+```
