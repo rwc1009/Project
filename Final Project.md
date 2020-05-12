@@ -63,7 +63,7 @@ makeblastdb -in bees.fa -out bees -dbtype nucl
 Perform the blast with the command:
 
 ```
-blast -db bees -max_target_seqs 1 -query bees.fa
+blastn -db bees -max_target_seqs 1 -query bees.fa -outfmt '6 qseqid qlen length pident gaps evalue stitle' -evalue 1e-10 -num_threads 10 -out blast.out
 ```
 
 Download MAFFT using the command:
