@@ -54,7 +54,7 @@ Convert the fastq files to fasta files using the command:
 paste - - - - < bees.fastq | cut -f 1,2 | sed 's/^@/>/' | tr "\t" "\n" > bees.fa
 ```
 
-Download the microsatellite marker Am0283=AT020, which is within the sting-1 gene (a gene that is associated with aggressive behavior) from https://www.ncbi.nlm.nih.gov/nuccore/AJ509514 with the command:
+Download the microsatellite marker Am0283=AT020, which is within the sting-1 QTL (sting-1 is a region of DNA associated with aggressive behavior) from https://www.ncbi.nlm.nih.gov/nuccore/AJ509514 with the command:
 
 ```
 esearch -db nucleotide -query "AJ509514" | efetch -format fasta > gene.fasta
