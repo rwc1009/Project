@@ -103,5 +103,4 @@ cat final.aln
 ```
 
 Copy the file and go to the website https://www.ebi.ac.uk/Tools/msa/mview/
-Paste the data into the text box and set the input to DNA
-Click submit and view results
+Paste the data into the text box and set the input to DNA. Click submit and view results
