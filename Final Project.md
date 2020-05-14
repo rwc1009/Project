@@ -107,3 +107,4 @@ Copy the file and go to the website https://www.ebi.ac.uk/Tools/msa/mview/
 Paste the data into the text box and set the input to DNA. Click submit and view the results
 
 The results should look like this:
+https://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=mview-I20200514-162727-0588-52974390-p1m
